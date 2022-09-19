@@ -16,6 +16,7 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Title>Bearer based PASETO authentication</Title>
     <NeutralLanguage>en</NeutralLanguage>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
