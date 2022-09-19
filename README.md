@@ -1,5 +1,5 @@
 # PasetoBearer.Authentication
-A simple implementation for securing the API by PASETO public access tokens.
+A simple implementation for securing the API by public PASETO access tokens.
 
 # Usage
 
