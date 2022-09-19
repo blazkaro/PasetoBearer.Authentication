@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasetoBearer.Authentication", "PasetoBearer.Authentication\PasetoBearer.Authentication.csproj", "{DC34524B-5A8C-4575-B202-A98C5454B5CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC34524B-5A8C-4575-B202-A98C5454B5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC34524B-5A8C-4575-B202-A98C5454B5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC34524B-5A8C-4575-B202-A98C5454B5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC34524B-5A8C-4575-B202-A98C5454B5CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11E41809-97C2-43F3-AFE4-71E288154BF8}
+	EndGlobalSection
+EndGlobal
