@@ -14,7 +14,7 @@ app.UseAuthorization();
 ```
 
 
-And then you can use PasetoBearer authorization in controller with ```[AuthorizeAttribute]``` like this:
+And then you can use PasetoBearer authentication scheme in controller with ```[AuthorizeAttribute]``` like this:
 
 ```cs
 [HttpGet]
