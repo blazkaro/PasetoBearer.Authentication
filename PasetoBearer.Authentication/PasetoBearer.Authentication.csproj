@@ -1,38 +1,43 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <Authors>blazkaro</Authors>
-    <Description>A simple implementation for securing the API by public PASETO access tokens.</Description>
-    <Copyright></Copyright>
-    <PackageProjectUrl>https://github.com/blazkaro/PasetoBearer.Authentication</PackageProjectUrl>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/blazkaro/PasetoBearer.Authentication</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
-    <PackageTags>paseto;api</PackageTags>
-    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <Title>Bearer based PASETO authentication</Title>
-    <NeutralLanguage>en</NeutralLanguage>
-    <Version>1.0.1</Version>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<Authors>blazkaro</Authors>
+		<Description>A simple implementation for securing the API by public PASETO access tokens.</Description>
+		<Copyright>Copyright (c) Karol Błażejczyk 2023</Copyright>
+		<PackageProjectUrl>https://github.com/blazkaro/PasetoBearer.Authentication</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/blazkaro/PasetoBearer.Authentication</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>paseto;api;authorization;authentication;security</PackageTags>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<Title>Bearer based PASETO authentication</Title>
+		<NeutralLanguage>en</NeutralLanguage>
+		<Version>2.0.0</Version>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <None Include="..\LICENSE">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Include="..\README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App"></FrameworkReference>
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
-    <PackageReference Include="Paseto.Core" Version="1.0.7" />
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Paseto.Core" Version="1.1.0" />
+	</ItemGroup>
 
 </Project>
